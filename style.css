@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  background: #f1f1f1;
+}
+.side-menu {
+  font-size: 14px;
+  background: #fff;
+  height: 120vh;
+  width: 17.1429em;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1em;
+  color: #000000;
+  display: block;
+  padding: 0.8571em 0;
+}
+.side-menu a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.side-menu a:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.side-menu a svg {
+  fill: #606060;
+}
+
+.side-menu a.active svg {
+  fill: #f00;
+}
+
+.side-menu a .icon {
+  margin-left: 1.8571em;
+  display: inline-block;
+  width: 1.4286em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.side-menu a .text {
+  display: inline-block;
+  margin-left: 1.8571em;
+  vertical-align: middle;
+}
+
+hr {
+  margin: 0.8571em 0;
+}
+
+.top-menu {
+  background: #fff;
+  margin-bottom: 3.5714em;
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu a {
+  text-decoration: none;
+}
+.menu {
+  padding: 8px;
+}
+.Search-button {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+}
+.youtube2 {
+  width: 78px;
+  padding: 8px;
+  margin-left: 12px;
+}
+.fire {
+  width: 1em;
+}
+.Subscribe {
+  width: 1em;
+}
+.Library {
+  width: 1em;
+  height: 20px;
+}
+.History {
+  width: 1em;
+}
+.YVideos {
+  width: 1em;
+}
+.WLater {
+  width: 1em;
+}
+.SMore {
+  width: 1em;
+}
+.title2 {
+  size: 14px;
+  color: #606060;
+  padding: 8px;
+  margin-left: 24px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.Search {
+  width: 30vw;
+  height: 30px;
+  padding: 1px 8px;
+  background: #ffffff;
+}
+.icon1 {
+  margin-right: 8px;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.icon2 {
+  margin-right: 8px;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.icon3 {
+  margin-right: 8px;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+.search3 {
+  position: absolute;
+  left: 1265px;
+  top: 18px;
+}
+.search-button {
+  position: absolute;
+  width: 63px;
+  height: 30px;
+  left: 1246px;
+  top: 12px;
+}
+.home {
+  width: 1.4286em;
+}
+
+@media only screen and (max-width: 600px) {
+  .side-menu {
+    font-size: 11px;
+  }
+}
