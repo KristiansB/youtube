@@ -5,9 +5,16 @@ body {
 .side-menu {
   font-size: 14px;
   background: #fff;
-  height: 140vh;
+  height: 150vh;
   width: 17.1429em;
 }
+.side-menu.active {
+  width: 5em;
+}
+.side-menu.active .text {
+  display: none;
+}
+
 
 .side-menu a {
   text-decoration: none;
@@ -67,7 +74,7 @@ hr {
 .Search-button {
   display: flex;
   flex-direction: row;
-  height: 32px;
+  height: 34px;
 }
 .youtube2 {
   width: 78px;
@@ -97,6 +104,18 @@ hr {
   width: 1em;
 }
 .title2 {
+  size: 14px;
+  color: #606060;
+  padding: 8px;
+  margin-left: 24px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+h4 {
   size: 14px;
   color: #606060;
   padding: 8px;
